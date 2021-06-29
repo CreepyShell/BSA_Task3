@@ -9,7 +9,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Новая папка\" />
+    <ProjectReference Include="..\LINQ.BL\LINQ.BL.csproj" />
+    <ProjectReference Include="..\LINQ.Common\LINQ.Common.csproj" />
   </ItemGroup>
 
 </Project>
